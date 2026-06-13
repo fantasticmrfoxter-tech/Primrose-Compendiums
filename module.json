@@ -1,0 +1,114 @@
+{
+  "id": "primrose-compendiums",
+  "title": "Primrose Compendiums",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "description": "<p>A series of compendiums for Primrose -  <a href=\"https://primrosegame.itch.io/core-book\">A Woodland Critter Roleplaying Game</a></p><p>Assets created by James Handley</p><p>World map by Vadim Bulgakov<br /></p>",
+  "authors": [
+    {
+      "name": "James Handley",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "Primcharacters",
+      "label": "Primrose - Characters",
+      "path": "packs/Primcharacters",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "worldbuilding",
+      "flags": {}
+    },
+    {
+      "name": "Primitems",
+      "label": "Primrose Items",
+      "path": "packs/Primitems",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "worldbuilding",
+      "flags": {}
+    },
+    {
+      "name": "Primdata",
+      "label": "Primrose - Core Data (See Readme before importing!)",
+      "path": "packs/Primdata",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "worldbuilding",
+      "flags": {}
+    },
+    {
+      "name": "Primmacro",
+      "label": "Primrose - Macros",
+      "path": "packs/Primmacro",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "worldbuilding",
+      "flags": {}
+    },
+    {
+      "name": "Primmap",
+      "label": "Primrose - Maps",
+      "path": "packs/Primmap",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "worldbuilding",
+      "flags": {}
+    },
+    {
+      "name": "Primtables",
+      "label": "Primrose - Roll Tables",
+      "path": "packs/Primtables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "worldbuilding",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "worldbuilding",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "actually-private-rolls",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "pdf-pager",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  }
+}
